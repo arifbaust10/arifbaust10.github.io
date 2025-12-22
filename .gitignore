@@ -1,0 +1,3 @@
+node_modules/
+dist/ # যদি dist folder থাকে
+*.log # log files ignore হবে
