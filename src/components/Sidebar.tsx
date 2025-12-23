@@ -262,7 +262,7 @@ const Sidebar: React.FC = () => {
             📍 <span>Naogaon, Rajshahi, Bangladesh</span>
           </ContactItem>
           <ContactItem>
-            ✉️ <span><a href="mailto:mukaffi28@gmail.com">arifbaust10@gmail.com</a></span>
+            ✉️ <span><a href="mailto:arifbaust10@gmail.com">arifbaust10@gmail.com</a></span>
           </ContactItem>
         </ContactInfo>
         
