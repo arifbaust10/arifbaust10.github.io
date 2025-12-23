@@ -247,7 +247,11 @@ const Sidebar: React.FC = () => {
       <SidebarContent>
         <ProfileSection>
           <ProfilePicture>
-            <img src="/images/profile.png" alt="Md. Ariful Islam" />
+          <img
+              src={`${process.env.PUBLIC_URL}/images/profile.png`}
+              alt="Md. Ariful Islam"
+          />
+
           </ProfilePicture>
           <Name>Md. Ariful Islam</Name>
           <Title>Researcher || Biomedical Engineering || Multimodal</Title>
@@ -292,10 +296,21 @@ const Sidebar: React.FC = () => {
         </AcademicLinks>
         
         <VisitorMapContainer>
-          <a href="https://clustrmaps.com/site/1c38a" title="ClustrMaps" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.clustrmaps.com/map_v2.png?d=hmIfEwbtPyT4fAgf0EIp_Xo1LUscuzQCoj1FtxsKDcI&cl=ffffff" width="200px" height="100px" alt="Visitor Map" />
-          </a>
-        </VisitorMapContainer>
+            <a 
+              href="https://clustrmaps.com/site/1c8sm" 
+              title="ClustrMaps" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <img 
+                src="//www.clustrmaps.com/map_v2.png?d=vqILqJSn3FcVx-5gv6rLRWzvC0jdDQOTtIwygL9gdj4&cl=ffffff" 
+                width="200px" 
+                height="100px" 
+                alt="Visitor Map" 
+              />
+            </a>
+          </VisitorMapContainer>
+
       </SidebarContent>
     </SidebarContainer>
   );
