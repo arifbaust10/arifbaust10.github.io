@@ -198,7 +198,7 @@ const Header: React.FC = () => {
     { title: 'Home', url: '/' },
     { title: 'Video Tutorials', url: '/Video_Playlist' },
     { title: 'Research', url: '/research' },
-    //{ title: 'Publications', url: '/publications' },
+    { title: 'Project', url: '/Project' },
     { title: 'Work Experience', url: '/work' },
     // { title: 'Datasets', url: '/datasets' },
     { title: 'Education', url: '/education' },

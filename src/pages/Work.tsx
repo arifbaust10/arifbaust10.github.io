@@ -245,7 +245,7 @@ const Portfolio: React.FC = () => {
   return (
     <WorkContainer>
       <PageHeader>
-        <PageTitle>Leadership & Achievements</PageTitle>
+        {/* <PageTitle>Leadership & Achievements</PageTitle> */}
         <PageSubtitle>My journey in Leadership, Sports, and Academics</PageSubtitle>
       </PageHeader>
 

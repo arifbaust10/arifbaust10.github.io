@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import News from './pages/Video_Playlist';
 import Research from './pages/Research';
-import Publications from './pages/Publications';
+import Publications from './pages/Project';
 import Work from './pages/Work';
 import Datasets from './pages/Datasets';
 import Education from './pages/Education';
@@ -58,7 +58,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/Video_Playlist" element={<News />} />
               <Route path="/research" element={<Research />} />
-              <Route path="/publications" element={<Publications />} />
+              <Route path="/Project" element={<Publications />} />
               <Route path="/work" element={<Work />} />
               <Route path="/datasets" element={<Datasets />} />
               <Route path="/education" element={<Education />} />
